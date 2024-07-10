@@ -1,0 +1,111 @@
+body{
+    font-family: serif;
+    background-color: #e5e5e5;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.c12{
+margin-top: 15px;
+margin:auto;
+padding: 15px;
+border:1px solid black;
+box-shadow: 0px 0px 8px grey;
+width:350px;
+height:auto;
+color:#DEB232;
+background-color: black;
+}
+.c12::-webkit-scrollbar { width: 0 !important }
+#addnew{
+    display: flex;
+    background-color: #e4c35f;
+    align-items: center;
+    justify-content:space-between;
+    border-radius: 5px;
+   
+    padding: 3px 3px;
+    border: 1px solid #eab517;
+    cursor: pointer;
+}
+i{
+    font-size: bold;
+}
+.fa-plus{
+    /* background-color: #f1b605 ; */
+    padding: 3px;
+    color:black;
+    color:black;
+    border-radius: 3px solid black;
+}
+#tasks{
+    display: grid;
+    gap:14px;
+}
+#tasks div{
+background-color:#e4c35f ;
+border: 3px solid #DEB232 ;
+padding: 5px;
+color:black;
+border-radius: 6px;
+}
+.c3{
+    font-weight: bolder;
+}
+.options{
+    justify-self: center;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    justify-items: center;
+    gap:20px
+}
+.options i:hover{
+     cursor:pointer;
+}
+#msg{
+    color:red;
+}
+.design div{
+    background-color: black;
+}
+#exampleModalLabel{
+    color:white
+}
+#btn1{
+    background-color: #eab517;
+}
+#btn2{
+    background-color: black;
+    border: 1px solid white;
+    color:white;
+}
+input[type="text"] {
+    padding: 10px;
+    border: 1px solid #DEB232;
+    transition: border-color 0.3s; 
+}
+input[type="text"]:focus {
+    border-color: #DEB232; 
+}
+input[type="date"] {
+    padding: 10px;
+    border: 1px solid #DEB232;
+    transition: border-color 0.3s; 
+}
+input[type="date"]:focus {
+    border-color: #DEB232; 
+}
+#textarea {
+    padding: 10px;
+    border: 1px solid #DEB232;
+    transition: border-color 0.3s; 
+}
+#textarea:focus {
+    border-color: #DEB232; 
+}
+.c14{
+    color:black;
+    border: 1px solid black;
+}
