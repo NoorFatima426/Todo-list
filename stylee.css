@@ -33,13 +33,13 @@ i{
     font-size: bold;
 }
 .fa-plus{
-    /* background-color: #f1b605 ; */
     padding: 3px;
     color:black;
     color:black;
     border-radius: 3px solid black;
 }
 #tasks{
+    word-break:break-word;
     display: grid;
     gap:14px;
 }
